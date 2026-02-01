@@ -1,0 +1,17 @@
+# --- Repository Debian 12 Bookworm (Debian Global) --- #
+# Debian Main Repositories
+deb http://deb.debian.org/debian/ bookworm main contrib non-free
+deb-src http://deb.debian.org/debian/ bookworm main contrib non-free
+
+# Debian Security Updates
+deb http://security.debian.org/debian-security bookworm-security main contrib non-free
+deb-src http://security.debian.org/debian-security bookworm-security main contrib non-free
+
+# Debian Updates
+deb http://deb.debian.org/debian/ bookworm-updates main contrib non-free
+deb-src http://deb.debian.org/debian/ bookworm-updates main contrib non-free
+
+# --- Repository Debian 12 Bookworm (Data Utama Surabaya) --- #
+# deb http://kartolo.sby.datautama.net.id/debian/ bookworm main contrib non-free
+# deb http://kartolo.sby.datautama.net.id/debian/ bookworm-updates main contrib non-free
+# deb http://kartolo.sby.datautama.net.id/debian-security/ bookworm/updates main contrib non-free
